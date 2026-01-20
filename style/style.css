@@ -1,2 +1,37 @@
+/* Root Section Code Start Here */
+:root{
+    --gradientColor: linear-gradient( 20deg, #F7E93F 20%, #FB09B4 51%, #9100F8 80%);
+    --whiteColor: #FFFFFF;
+    --bgColor: #1A0B2E;
+    --greenColor: #00FF88;
+    --textColor: #a6a0b9;
+}
+/* Root Section Code End Here */
+
+/* Reset Default CSS Design */
+*,*::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+    background-color: var(--bgColor);
+    color: var(--whiteColor);
+}
+.btn{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 20px;
+    background: transparent;
+    border: 1px solid var(--textColor);
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    span{
+        background: transparent; 
+    }
+}
 
 
