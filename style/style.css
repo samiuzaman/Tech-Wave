@@ -181,7 +181,66 @@ nav ul{
     }
 }
 /* About Podcast section code end here */
-
+/* Choose TechWave section code start here */
+#choose-techwave-container{
+    padding: 60px 9%;
+    background-color: #230E3D;
+    h2{
+        font-size: 42px;
+        font-weight: bold;
+        margin-bottom: 28px;
+        text-align: center;
+    }
+}
+#choose-card-container{
+    background: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+}
+.single-choose-card{
+    width: 100%;
+    border: 1px solid var(--textColor);
+    background-color: rgba(53, 17, 101, 0.5);
+    padding: 24px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    img{
+        width: 50px;
+        height: 50px;
+        background: none;
+        margin-bottom: 16px;
+    }
+    h4{
+        font-size: 24px;
+        font-weight: bold;
+        color: var(--whiteColor);
+        background: none;
+        margin-bottom: 16px;
+    }
+    p{
+        color: var(--textColor);
+        font-weight: 28px;
+        background: none;
+    }
+}
+.single-choose-card:nth-child(1){
+    grid-row: span 2;
+}
+.single-choose-card:nth-child(2){
+    grid-column: span 2;
+}
+.single-choose-card:nth-child(3){
+    grid-column: span 2;
+}
+.single-choose-card:nth-child(4){
+    grid-column: span 2;
+}
+/* Choose TechWave section code end here */
 
 
 
