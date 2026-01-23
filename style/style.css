@@ -65,6 +65,14 @@ nav ul{
         padding-left: 4px;
     }
 }
+
+.nav-menu-icon{
+    display: none;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    cursor: pointer;
+}
 /* hero section code start here */
 #hero-container{
     border-top: 1px solid var(--textColor);
@@ -85,12 +93,8 @@ nav ul{
         color: var(--whiteColor);
         
     }
-    p{
-        font-size: 16px;
-        color: var(--textColor);
-        margin-bottom: 18px;
-    }
 }
+
 .hero-img-container{
     width: 300px;
     height: 300px;
@@ -153,6 +157,18 @@ nav ul{
         text-align: center;
         line-height: 26px;
     }
+}
+.about-desktop-view{
+    display: block;
+    font-size: 16px;
+    color: var(--textColor);
+    margin-bottom: 18px;
+}
+.about-mobile-view{
+    display: none;
+    font-size: 16px;
+    color: var(--textColor);
+    margin-bottom: 18px;
 }
 #about-podcast-container p:nth-child(3){
     margin-top: 28px;
@@ -297,5 +313,58 @@ nav ul{
 }
 /* Featured Episodes section code end here */
 
-
+/* Meet the Host section code start here */
+#meet-host-container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    h2{
+        font-size: 42px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+}
+.profile-container{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 18px;
+    padding: 32px 24px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 24px;
+}
+.profile-img{
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    img{
+        border-radius: 50%;
+    }
+}
+.profile-details{
+    background: transparent;
+    h3{
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        background: transparent;
+    }
+    p{
+        color: var(--textColor);
+    }
+}
+.host-social-link{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background: transparent;
+    margin-top: 24px;
+    img{
+        width: 24px;
+        height: 24px;
+    }
+}
+/* Meet the Host section code end here */
 
