@@ -1,0 +1,106 @@
+/* Mobile Responsive Design */
+@media only screen and (max-width: 768px){
+    /* Responsive Navbar */
+    nav{
+        ul{
+            display: none;
+        }
+    }
+    .subscribe-btn{
+            display: none;
+        }
+    .nav-menu-icon{
+        display: block;
+    }
+    /* Responsive Hero Section */
+    #hero-container{
+        p{
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    }
+    /* Responsive About podcast section */
+    #about-podcast-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about-desktop-view{
+    display: none;
+}
+.about-mobile-view{
+    display: block;
+    
+}
+#states-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+/* Responsive Choose TechWave section */
+#choose-techwave-container{
+    padding: 50px 3%;
+    margin: 0 auto;
+     h2{
+        font-size: 30px;
+    }
+}
+#choose-card-container{
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-content: center;
+    padding: 0 10px;
+}
+.single-choose-card:nth-child(1){
+    grid-row: span 1;
+    grid-column: span 1;
+}
+.single-choose-card:nth-child(2){
+    grid-column: span 1;
+}
+.single-choose-card:nth-child(3){
+    grid-row: span 1;
+    grid-column: span 1;
+}
+.single-choose-card:nth-child(4){
+   grid-row: span 1;
+    grid-column: span 1;
+}
+/* Responsive Featured Episodes section */
+#featured-episodes-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.video-card-container{
+    flex-direction: column;
+}
+/* Responsive Meet the Host section */
+#meet-host-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.profile-container{
+    flex-direction: column;
+    padding: 40px 16px;
+    border-radius: 12px;
+}
+.profile-details{
+    margin-top: 16px;
+    text-align: center;
+    p{
+        text-align: justify;
+    }
+}
+.host-social-link{
+    justify-content: center;
+}
+/* Responsive Footer Section */
+footer{
+    
+}
+.social-container ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-content: center;
+        gap: 32px;
+    }
