@@ -368,3 +368,51 @@ nav ul{
 }
 /* Meet the Host section code end here */
 
+/* footer section code start here */
+footer{
+    background-image: url("/assets/footer-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    img{
+        
+        background: transparent;
+    }
+}
+.social-container{
+    background: transparent;
+}
+.social-container ul{
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 10px;
+}
+.social-container ul li{
+    list-style: none;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    span{
+        background: transparent;
+        color: var(--textColor);
+    }
+}
+.copyright-text{
+    color: var(--textColor);
+
+    background: transparent;
+}
+.footer-logo{
+    width: 180px;
+}
+/* footer section code end here */
